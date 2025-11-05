@@ -13,8 +13,8 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 * `text-clean` – valid cleaned messages
 * `text-dead-letter` – invalid messages
 
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](screens/image.png)
+![alt text](screens/image-1.png)
 
 ---
 
@@ -23,7 +23,7 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 * Read from `text-input` topic.
 * Each message is a string.
 
-![alt text](image-2.png)
+![alt text](screens/image-2.png)
 
 ---
 
@@ -33,7 +33,7 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 * Replace multiple spaces with one
 * Convert to uppercase
 
-![alt text](image-3.png)
+![alt text](screens/image-3.png)
 
 ---
 
@@ -43,7 +43,7 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 * Reject forbidden words: HACK, SPAM, XXX
 * Reject messages > 100 characters
 
-![alt text](image-4.png)
+![alt text](screens/image-4.png)
 
 ---
 
@@ -52,7 +52,7 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 * Valid -> `text-clean`
 * Invalid -> `text-dead-letter`
 
-![alt text](image-5.png)
+![alt text](screens/image-5.png)
 
 ---
 
@@ -63,9 +63,9 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 3. Send messages to `text-input`.
 4. Check `text-clean` and `text-dead-letter` for correct routing.
 
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-8.png)
+![alt text](screens/image-6.png)
+![alt text](screens/image-7.png)
+![alt text](screens/image-8.png)
 ---
 
 ## Conclusion
