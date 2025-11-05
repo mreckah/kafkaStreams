@@ -1,11 +1,10 @@
 # Kafka Streams – Text Cleaning Application
+This project implements a Kafka Streams application that cleans, filters, and routes text messages.
+
 <div align="center">
   <img src="screens/kafka.png" alt="Apache Kafka Logo" width="200" height="200">
 </div>
 
-This project implements a Kafka Streams application that cleans, filters, and routes text messages.
-
----
 
 ## 1. Topics to create
 
@@ -34,7 +33,7 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 * Convert to uppercase
 
 ![alt text](screens/image--.png)
-![alt text](image.png)
+![alt text](screens/image.png)
 ---
 
 ## 4. Filter messages
@@ -64,7 +63,9 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 4. Check `text-clean` and `text-dead-letter` for correct routing.
 
 ![alt text](screens/image-6.png)
+### text-clean
 ![alt text](screens/image-7.png)
+### text-dead-letter
 ![alt text](screens/image-8.png)
 ---
 
