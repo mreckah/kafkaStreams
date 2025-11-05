@@ -1,6 +1,6 @@
 # Kafka Streams – Text Cleaning Application
 <div align="center">
-  <img src="kafka.png" alt="Apache Kafka Logo" width="200" height="200">
+  <img src="screens/kafka.png" alt="Apache Kafka Logo" width="200" height="200">
 </div>
 
 This project implements a Kafka Streams application that cleans, filters, and routes text messages.
@@ -33,8 +33,8 @@ This project implements a Kafka Streams application that cleans, filters, and ro
 * Replace multiple spaces with one
 * Convert to uppercase
 
-![alt text](screens/image-3.png)
-
+![alt text](screens/image--.png)
+![alt text](image.png)
 ---
 
 ## 4. Filter messages
